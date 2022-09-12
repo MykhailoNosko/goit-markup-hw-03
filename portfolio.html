@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" type="text/css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -20,35 +24,29 @@
             ><span style="color: #2196f3">Web</span>Studio</a
           >
           <ul class="nav list">
-            <li><a href="./index.html" class="nav">Студія</a></li>
-            <li>
-              <a href="./portfolio.html" class="current-page next">Портфоліо</a>
-            </li>
+            <li><a href="./index.html" class="current-page">Студія</a></li>
+            <li><a href="./portfolio.html" class="nav next">Портфоліо</a></li>
             <li><a href="" class="nav next">Контакти</a></li>
           </ul>
         </nav>
-        <div class="auth-nav-cont">
-          <ul class="auth-nav-cont list">
-            <li>
-              <a href="mailto:" class="auth-nav-cont next"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a href="tel:+380961111111" class="auth-nav-phone next">
-                +3809611111117</a
-              >
-            </li>
-          </ul>
-        </div>
+        <ul class="auth-nav-cont list">
+          <li>
+            <a href="mailto:" class="auth-nav-cont next">info@devstudio.com</a>
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="auth-nav-phone next">
+              +3809611111117</a
+            >
+          </li>
+        </ul>
       </div>
     </header>
     <main>
-      <div class="container main-container">
-        <section class="main-section">
+      <section class="main-section">
+        <div class="container">
           <!-- buttons section-->
 
-          <div class="contsiner nav-btn-container">
+          <div class="container nav-btn-container">
             <ul class="nav-btn-list">
               <li>
                 <button type="button" class="link">Усі</button>
@@ -170,8 +168,8 @@
               </a>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
 
     <!-- footer section -->

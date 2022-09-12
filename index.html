@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" type="text/css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -26,55 +30,51 @@
             <li><a href="" class="nav next">Контакти</a></li>
           </ul>
         </nav>
-        <div class="auth-nav-cont">
-          <ul class="auth-nav-cont list">
-            <li>
-              <a href="mailto:" class="auth-nav-cont next"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a href="tel:+380961111111" class="auth-nav-phone next">
-                +3809611111117</a
-              >
-            </li>
-          </ul>
-        </div>
+        <ul class="auth-nav-cont list">
+          <li>
+            <a href="mailto:" class="auth-nav-cont next">info@devstudio.com</a>
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="auth-nav-phone next">
+              +3809611111117</a
+            >
+          </li>
+        </ul>
       </div>
     </header>
     <main>
       <!-- hero section-->
       <section class="hero">
-        <div class="container hero-container">
+        <div class="container">
           <h1 class="hero-main">Ефективні рішення для вашого бізнесу</h1>
           <button type="button" class="main-btn">Замовити послугу</button>
         </div>
       </section>
       <!-- about section-->
-      <div class="container about-container">
-        <section>
+      <section class="about-section">
+        <div class="container">
           <ul class="about list">
-            <li>
+            <li class="about-card">
               <h3 class="about-items">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p class="about-dscr">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
-            <li>
+            <li class="about-card">
               <h3 class="about-items">ПУНКТУАЛЬНІСТЬ</h3>
               <p class="about-dscr">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
-            <li>
+            <li class="about-card">
               <h3 class="about-items">ПЛАНУВАННЯ</h3>
               <p class="about-dscr">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li>
+            <li class="about-card">
               <h3 class="about-items">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
               <p class="about-dscr">
                 Значимість цих проблем настільки очевидна, що реалізація
@@ -82,38 +82,42 @@
               </p>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
 
-      <div class="container promo-container">
-        <section>
+      <section class="promo-list">
+        <div class="promo-container">
           <h2 class="promo">Чим ми займаємося</h2>
           <ul class="promo-work list">
             <li><img src="./images/img.jpg" alt="work" width="370" /></li>
             <li><img src="./images/img1.jpg" alt="work1" width="370" /></li>
             <li><img src="./images/img2.jpg" alt="work2" width="370" /></li>
           </ul>
-        </section>
-      </div>
-
+        </div>
+      </section>
       <!-- Наша команда-->
       <section class="staff">
-        <div class="container staff-container">
+        <div class="container">
           <h2 class="all-staff">Наша команда</h2>
           <ul class="staff list">
             <div class="cards">
               <li class="item">
                 <img
-                src="./images/staff/staff-img1.jpg"
-                alt="Ігор Дем'яненко"
-                width="270"/>
+                  src="./images/staff/staff-img1.jpg"
+                  alt="Ігор Дем'яненко"
+                  width="270"
+                />
                 <h3 class="person">Ігор Дем'яненко</h3>
                 <p class="type">Product Designer</p>
               </li>
             </div>
             <div class="cards">
               <li class="item">
-                <img src="./images/staff/staff-img2.jpg" alt="Ольга Рєпіна" width="270" />
+                <img
+                  src="./images/staff/staff-img2.jpg"
+                  alt="Ольга Рєпіна"
+                  width="270"
+                />
                 <h3 class="person">Ольга Рєпіна</h3>
                 <p class="type">Frontend Developer</p>
               </li>
@@ -140,8 +144,8 @@
                 <p class="type">UI Designer</p>
               </li>
             </div>
-          
-        </ul>
+          </ul>
+        </div>
       </section>
     </main>
 
