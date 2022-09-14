@@ -25,9 +25,13 @@
             ><span style="color: #2196f3">Web</span>Studio</a
           >
           <ul class="nav list">
-            <li><a href="./index.html" class="current-page">Студія</a></li>
-            <li><a href="./portfolio.html" class="nav next">Портфоліо</a></li>
-            <li><a href="" class="nav next">Контакти</a></li>
+            <li class="first-nav">
+              <a href="./index.html" class="current-page">Студія</a>
+            </li>
+            <li class="first-nav">
+              <a href="./portfolio.html" class="nav">Портфоліо</a>
+            </li>
+            <li class="first-nav"><a href="" class="nav">Контакти</a></li>
           </ul>
         </nav>
         <ul class="auth-nav-cont list">
@@ -35,7 +39,7 @@
             <a href="mailto:" class="auth-nav-cont next">info@devstudio.com</a>
           </li>
           <li>
-            <a href="tel:+380961111111" class="auth-nav-phone next">
+            <a href="tel:+380961111111" class="auth-nav-phone">
               +3809611111117</a
             >
           </li>
@@ -86,7 +90,7 @@
       </section>
 
       <section class="promo-list">
-        <div class="promo-container">
+        <div class="container">
           <h2 class="promo">Чим ми займаємося</h2>
           <ul class="promo-work list">
             <li><img src="./images/img.jpg" alt="work" width="370" /></li>
@@ -100,50 +104,53 @@
         <div class="container">
           <h2 class="all-staff">Наша команда</h2>
           <ul class="staff list">
-            <div class="cards">
-              <li class="item">
-                <img
-                  src="./images/staff/staff-img1.jpg"
-                  alt="Ігор Дем'яненко"
-                  width="270"
-                />
+            <li class="item">
+              <img
+                src="./images/staff/staff-img1.jpg"
+                alt="Ігор Дем'яненко"
+                width="270"
+              />
+              <div class="cards">
                 <h3 class="person">Ігор Дем'яненко</h3>
                 <p class="type">Product Designer</p>
-              </li>
-            </div>
-            <div class="cards">
-              <li class="item">
-                <img
-                  src="./images/staff/staff-img2.jpg"
-                  alt="Ольга Рєпіна"
-                  width="270"
-                />
+              </div>
+            </li>
+
+            <li class="item">
+              <img
+                src="./images/staff/staff-img2.jpg"
+                alt="Ольга Рєпіна"
+                width="270"
+              />
+              <div class="cards">
                 <h3 class="person">Ольга Рєпіна</h3>
                 <p class="type">Frontend Developer</p>
-              </li>
-            </div>
-            <div class="cards">
-              <li class="item">
-                <img
-                  src="./images/staff/staff-img3.jpg"
-                  alt="Микола Тарасов"
-                  width="270"
-                />
+              </div>
+            </li>
+
+            <li class="item">
+              <img
+                src="./images/staff/staff-img3.jpg"
+                alt="Микола Тарасов"
+                width="270"
+              />
+              <div class="cards">
                 <h3 class="person">Микола Тарасов</h3>
                 <p class="type">Marketing</p>
-              </li>
-            </div>
-            <div class="cards">
-              <li class="item">
-                <img
-                  src="./images/staff/staff-img4.jpg"
-                  alt="Михайло Єрмаков"
-                  width="270"
-                />
+              </div>
+            </li>
+
+            <li class="item">
+              <img
+                src="./images/staff/staff-img4.jpg"
+                alt="Михайло Єрмаков"
+                width="270"
+              />
+              <div class="cards">
                 <h3 class="person">Михайло Єрмаков</h3>
                 <p class="type">UI Designer</p>
-              </li>
-            </div>
+              </div>
+            </li>
           </ul>
         </div>
       </section>
@@ -157,7 +164,7 @@
         >
         <address>
           <ul class="footer list">
-            <li>
+            <li class="footer-item">
               <a
                 href="https://goo.gl/maps/AY5gfUNiePziYxSN7/"
                 target="_blank"
@@ -167,8 +174,10 @@
                 м. Київ, пр-т Лесі Українки, 26</a
               >
             </li>
-            <li><a href="mailto:" class="contact">info@devstudio.com</a></li>
-            <li>
+            <li class="footer-item">
+              <a href="mailto:" class="contact">info@devstudio.com</a>
+            </li>
+            <li class="footer-item">
               <a href="tel:+380961111111" class="contact">+3809611111117</a>
             </li>
           </ul>
