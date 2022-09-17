@@ -118,12 +118,14 @@ img {
   text-decoration: none;
   padding-bottom: 32px;
   padding-top: 32px;
-  
 }
+
+
 
 .auth-nav-cont{
   display: flex;
   align-items: center;
+  
 }
 
 .auth-nav-cont,
@@ -135,7 +137,7 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
   gap: 50px;
- 
+  margin-left: auto;
   
 }
 .auth-nav-phone{
@@ -430,6 +432,10 @@ a{
 .hero{
   background-color: #2f303a;
 }
+
+.address{
+  margin-top: 20px;
+}
 .adrs {
   color: var(--white-color);
   font-weight: 400;
@@ -462,7 +468,4 @@ a{
 }
 .footer-item:not(:last-child){
   margin-bottom: 9px;
-}
-.footer-item:nth-child(1){
-  margin-top: 20px;
 }
